@@ -25,7 +25,7 @@ pip install zipcreator
 ```python
 from zipcreator import list_zip
 
-files = ['test.txt', 'testdir/test2.txt']
+files = ['test.txt', 'testdir/']
 dest = 'result.zip'
 
 list_zip.create(files, dest)
@@ -34,6 +34,7 @@ list_zip.create(files, dest)
 ## Versioning
 
 - v1.0.0 - Initial Release - 04/20/2020
+- v1.0.1 - Added ability to pass in directory name only - 08/15/2020
 
 ## Authors
 

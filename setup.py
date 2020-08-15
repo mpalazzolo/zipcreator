@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
 setup(
     name='zipcreator',
     url='https://github.com/mpalazzolo/zipcreator',
-    version='1.0.0',
+    version='1.0.1',
     packages=['zipcreator'],
     license='LICENSE.txt',
     author='Matt Palazzolo',
